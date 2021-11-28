@@ -4,6 +4,12 @@
     src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg"
 />
 
+## Minhas observações extras
+
+Esse código foi "forkado" por mim somente para fins de aprendizado e para que eu possa adicionar comentários. Abaixo segue o conteúdo original do criado do conteúdo.
+
+## Descrição original do criado do código
+
 Olá, nesse projeto nós realizamos a implementação de uma estrutura básica de serviços da AWS utilizando o AWS CDK, o AWS CDK é um "framework" criado e mantido pela AWS com o proposito de trazer a definição de infraestrutura como código mais próxima da sua linguagem de programação favorita, tornando assim a sua experiência mais divertida. Apresentado por [Bruno Russi Lautenschlager][1].
 
 ## Instalação
