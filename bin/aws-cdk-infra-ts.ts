@@ -3,6 +3,9 @@ import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
 import { AwsCdkInfraTsStack } from '../lib/aws-cdk-infra-ts-stack';
 
+// Projeto é inicializado aqui. Para saber mais sobre o CDK veja o readme deste projeto.
+// Lembrando que tem que criar um acesso programático (usuário com suas security credentials) para acessar os recursos da AWS via AWS CLI:
+// aws configure para inserir a access key id e a secret key id (veja na Internet o passo a passo que é sempre igual)
 const app = new cdk.App();
 new AwsCdkInfraTsStack(app, 'AwsCdkInfraTsStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.

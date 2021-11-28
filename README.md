@@ -36,14 +36,17 @@ Essas são as libs instaldas no projeto para adicionar mais serviços a nossa st
 
 ### Configurando o primeiro deploy
 
+Isso daqui é necessário no primeiro deploy que você for fazer. Ele cria uma cloudformation e um bucket para armazenar alguns códigos. Entre no menu da CloudFormation na AWS para você ver o que ele criou. Entre na Stack CDKToolkit e veja os eventos (para ver o que ele fez). Vá para resources e veja que ele criou um S3 e uma policy de S3 que serve para permitir o acesso ao S3. Ele cria esse S3 para fazer o deploy de código temporários necessários.
 - `cdk bootstrap`
 
 ### Visualizando as diferenças
 
+Mostra o que ficará de diferente na nossa conta da AWS assim que demos um deploy. Ou seja, qual recurso deverá ser criado.
 - `cdk diff`
 
 ### Gerando o cloud formation
 
+Esse comando gerar (mostra) um código de CloudFormation que o que realmente será enviado para a AWS para criar a nossa Infra.
 - `cdk synth`
 
 ### Realizando o deploy na AWS
@@ -51,7 +54,7 @@ Essas são as libs instaldas no projeto para adicionar mais serviços a nossa st
 - `cdk deploy`
 
 ### Destuindo a infraestrutura
-
+Transforma o nosso código em cloudformation e aplica na AWS.
 - `cdk destroy`
 
 ## Expert
